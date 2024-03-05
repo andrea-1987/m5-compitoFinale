@@ -7,6 +7,7 @@ export const MyCard = ({ setSelected, selected, book }) => {
   return (
     <>
       <Card
+        data-testid="card_element"
         onClick={() => setSelected(book.asin)}
         style={{
           border: selected === book.asin ? '3px solid red' : 'none',

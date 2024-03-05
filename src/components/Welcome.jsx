@@ -1,7 +1,7 @@
 import { Alert } from 'react-bootstrap'
 
 const Welcome = () => (
-  <Alert className="text-center">
+  <Alert data-testid="welcome_element" className="text-center">
     <h1>Wellcome To The Jungle</h1>
   </Alert>
 )
